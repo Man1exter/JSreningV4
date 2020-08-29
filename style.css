@@ -16,11 +16,12 @@ body{
    top: 2%;
    transform: translate(-50%);
    border-radius: 5px;
-   padding: 5px;
    transition: .3s linear;
+   display: block;
+   margin: 20px auto 50px;
+   padding: 20px 50px;
 }
 .roll:hover{
-    padding: 7px;
     background-color: yellow;
     border: 3px solid black;
     color: rgb(17, 0, 255);
@@ -28,7 +29,7 @@ body{
 .name{
     font-size: 40px;
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 7%;
     transition: .3s linear;
 }
