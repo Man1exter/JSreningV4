@@ -25,3 +25,13 @@ body{
     border: 3px solid black;
     color: rgb(17, 0, 255);
 }
+.name{
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    transition: .3s linear;
+}
+.name:hover{
+    color: slateblue;
+}
