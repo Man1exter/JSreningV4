@@ -29,7 +29,7 @@ body{
     font-size: 40px;
     position: absolute;
     top: 10%;
-    left: 1%;
+    left: 10%;
     transition: .3s linear;
 }
 .name:hover{
