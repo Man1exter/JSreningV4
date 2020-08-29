@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.roll{
+   font-size: 30px;
+   border: 2px solid salmon;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   cursor: pointer;
+   background-color: lightblue;
+   position: absolute;
+   left: 50%;
+   top: 2%;
+   transform: translate(-50%);
+   border-radius: 5px;
+   padding: 5px;
+   transition: .3s linear;
+}
+.roll:hover{
+    padding: 7px;
+    background-color: yellow;
+    border: 3px solid black;
+    color: rgb(17, 0, 255);
+}
