@@ -2,9 +2,12 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: rgb(199, 195, 195);
+}
 .roll{
    font-size: 30px;
-   border: 2px solid salmon;
+   border: 3px solid salmon;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    cursor: pointer;
    background-color: lightblue;
