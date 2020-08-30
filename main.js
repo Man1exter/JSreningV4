@@ -23,5 +23,27 @@ const chars = 'ABCDEFG0123456789';
 const clicks = document.querySelector(".click");
 const section = document.querySelector("section");
 
+const chartsWidth = 10;
+const codeNumbers  = 10;
+
+const functionMove = () => {
+ for(let i=o; i < codeNumbers; i++){
+       let code = '';
+           for(let i = 0; i < chartsWidth, i++){
+               const index = Math.floor(Math.random()*20)
+               code += charts[index];
+       }
+
+ }
+}
+
+
+
+          const div = document.createElement('div');
+                  div.textContent = code;
+                      section.appendChild(div);
+
+
+clicks.addEventListener("click", functionMove)
 
 
