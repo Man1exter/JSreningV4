@@ -12,3 +12,16 @@ const showName = () => {
 }
 
 btn.addEventListener("click", showName)
+
+
+//------------------------------------
+////RANDOM CODE WITH 10 CHArS :))
+//-----//------------------------------------------------
+
+const chars = 'ABCDEFG0123456789';
+
+const clicks = document.querySelector(".click");
+const section = document.querySelector("section");
+
+
+
