@@ -37,6 +37,8 @@ const functionMoves = () => {
           const div = document.createElement('div');
                   div.textContent = code;
                       section.appendChild(div);
+                     div.style.lineHeight ="50px";
+
                       
         }
 }
