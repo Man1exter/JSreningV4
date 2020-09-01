@@ -67,6 +67,7 @@ form{
     border: 5px solid rgb(4, 0, 255);
     background-color: yellow;
     cursor: pointer;
+    transition: .3s linear;
 }
 .namee:hover{
     border: 5px solid rgb(6, 243, 6);
