@@ -54,3 +54,36 @@ body{
     background-color: yellow;
     color: brown;
 }
+form{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.name{
+    position: absolute;
+    top: -6%;
+    left: 125%;
+    border: 5px solid rgb(4, 0, 255);
+    background-color: yellow;
+    cursor: pointer;
+}
+.name:hover{
+    border: 5px solid rgb(6, 243, 6);
+    background-color: rgb(253, 165, 2);
+    color: black;
+}
+.info{
+    border: 3px solid black;
+    transition: .3s linear;
+}
+.info:hover{
+    border: 3px solid rgb(255, 0, 0);
+}
+.user{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+}
