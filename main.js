@@ -60,16 +60,21 @@ const element = document.querySelector(".user");
 const addName = (e) => {
     e.preventDefault();
     const input = document.querySelector(".info")
-    const user = input.value;
+    const newUser = input.value;
 
 if(input.value.length){
-
-    users.push(user);
-    element.textContent += user + ", "
+    
+    for(user of users){
+        
+        if(user === newUser){
+            alert("Don't write this name AGAIN!")
+            return
+        }
+    
+}
+    users.push(newUser);
+    element.textContent += newUser + ", "
     input.value = "";
 }
 }
-
-
-
 const pushButton = document.querySelector(".namee").addEventListener("click", addName);
