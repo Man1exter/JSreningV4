@@ -60,15 +60,15 @@ form{
     position: absolute;
     transform: translate(-50%,-50%);
 }
-.name{
+.namee{
     position: absolute;
     top: -6%;
-    left: 125%;
+    left: 105%;
     border: 5px solid rgb(4, 0, 255);
     background-color: yellow;
     cursor: pointer;
 }
-.name:hover{
+.namee:hover{
     border: 5px solid rgb(6, 243, 6);
     background-color: rgb(253, 165, 2);
     color: black;
