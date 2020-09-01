@@ -46,3 +46,10 @@ const functionMoves = () => {
 clicks.addEventListener("click", functionMoves );
 
 
+//---------------------------------
+//------------------------------------------
+// new function add name on input and show them below after to click add name
+//-------------------------------------------------
+
+
+
