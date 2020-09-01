@@ -53,14 +53,19 @@ clicks.addEventListener("click", functionMoves );
 //preventDefault - zatrzymuje dzialanie odswiezenia po wpisanoiu i dodanu
 
 
-const names = [];
+const users = [];
+const element = document.querySelector(".user");
 
 
+const addName = (e) => {
+    e.preventDefault();
+    const input = document.querySelector(".info")
+    const user = input.value;
+    element.textContent += user + ", "
+    input.value = "";
 
-const addName = () => {
-    
 }
 
 
 
-const pushButton = document.querySelector(".namee").addEventListener("click", addName)
+const pushButton = document.querySelector(".namee").addEventListener("click", addName);
