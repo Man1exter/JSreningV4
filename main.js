@@ -61,9 +61,13 @@ const addName = (e) => {
     e.preventDefault();
     const input = document.querySelector(".info")
     const user = input.value;
+
+if(input.value.length){
+
+    users.push(user);
     element.textContent += user + ", "
     input.value = "";
-
+}
 }
 
 
